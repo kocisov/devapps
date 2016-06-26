@@ -1,10 +1,11 @@
 {
   "name": "devapps",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "List of developer apps",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . DevApps --platform=darwin --arch=x64 --ignore=node_modules"
   },
   "repository": {
     "type": "git",

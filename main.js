@@ -6,15 +6,15 @@ let mainWindow
 
 function createWindow () {
   mainWindow = new BrowserWindow({
-		width: 380,
-		height: 600,
-		maxWidth: 380,
-		maxHeight: 600,
-		minWidth: 380,
-		minHeight: 600,
-		resizable: false,
-		titleBarStyle: 'hidden'
-	})
+    width: 380,
+    height: 600,
+    maxWidth: 380,
+    maxHeight: 600,
+    minWidth: 380,
+    minHeight: 600,
+    resizable: false,
+    titleBarStyle: 'hidden'
+  })
 
   mainWindow.loadURL(`file://${__dirname}/index.html`)
 
