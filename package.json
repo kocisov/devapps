@@ -1,6 +1,6 @@
 {
   "name": "devapps",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "List of developer apps",
   "main": "main.js",
   "scripts": {
