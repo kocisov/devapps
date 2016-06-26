@@ -1,0 +1,30 @@
+{
+  "name": "devapps",
+  "version": "0.0.1",
+  "description": "List of developer apps",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kocisov/devapps.git"
+  },
+  "keywords": [
+    "JavaScript",
+    "Electron",
+    "Node",
+    "Dev",
+    "Apps"
+  ],
+  "author": "kocisov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kocisov/devapps/issues"
+  },
+  "homepage": "https://github.com/kocisov/devapps#readme",
+  "devDependencies": {
+    "electron-packager": "^7.1.0",
+    "electron-prebuilt": "^1.2.5"
+  }
+}
